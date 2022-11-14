@@ -37,7 +37,7 @@ public class OrderTest {
         $("[data-test-id=\"phone\"] input").sendKeys("+79998887766");
         $("[data-test-id=\"agreement\"] span").click();
         $(By.className("button")).click();
-        $("[data-test-id=\"order-success\"]").shouldHave(Condition.text("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.-"));
+        $("[data-test-id=\"order-success\"]").shouldHave(Condition.text("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
 
     }
 
